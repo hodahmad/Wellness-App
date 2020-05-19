@@ -1,0 +1,25 @@
+.dailyQuote {
+    color: #d3b5f7;
+    text-align: center;
+    padding: 100px;
+    margin: 100px;
+    font-family: 'Parisienne', cursive;
+}
+
+.moodCheck {
+    color: #d3b5f7;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    size: 100px;
+    font-family: 'Laila', serif;
+    font-size: 15px;
+}
+
+body {
+    background: linear-gradient(to left, #b53df5, #d3b5f7);
+}
+
+.navbar-brand {
+    font-family: 'Laila', serif;
+}
