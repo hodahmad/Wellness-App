@@ -1,7 +1,3 @@
-fetch("https://type.fit/api/quotes")
-  .then(function(response) {
-    return response.json();
-  })
-  .then(function(data) {
-    console.log(data);
-  });
+//API needed to fetch a new quote every single day OR by each page refresh 
+// https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand
+
