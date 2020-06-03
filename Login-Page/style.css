@@ -1,3 +1,7 @@
 body {
     background: linear-gradient(to left, #b53df5, #d3b5f7);
 }
+
+.navbar-brand {
+    font-family: 'Laila', serif;
+}
