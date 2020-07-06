@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(to left, #b53df5, #d3b5f7);
+    color: white;
 }
 
 .navbar-brand {
@@ -8,6 +9,9 @@ body {
 
 form { 
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Laila', serif;
 }
 
 .noAccount {
@@ -25,4 +29,26 @@ form {
 .loginMessage {
     text-align: center;
     font-family: 'Laila', serif;
+    font-style: italic;
+    margin: 20px;
+}
+
+.loginSubmit {
+    display: table;
+    margin: 0 auto;
+ }
+
+input[type=text] {
+    border: 2px solid #d3b5f7;
+    border-radius: 4px;
+}
+
+input[type=email] {
+    border: 2px solid #d3b5f7;
+    border-radius: 4px;
+}
+
+input[type=password] {
+    border: 2px solid #d3b5f7;
+    border-radius: 4px;
 }
