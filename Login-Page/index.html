@@ -3,49 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Login for Wellness</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kaushan+Script&family=Laila:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Daily Wellness</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(to left, #b53df5, #d3b5f7);">
-        <a class="navbar-brand" href="index.html">Daily Wellness</a>
+        <a class="navbar-brand" href="../index.html">Daily Wellness</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="MeditationApp/index.html">Meditate<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../MeditationApp/index.html">Meditate<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="Yoga-Page/index.html">Yoga <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../Yoga-Page/index.html">Yoga <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Nutrition <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="../Nutrition-Page/index.html">Nutrition <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Fitness <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="../Fitness-Page/index.html">Fitness <span class="sr-only">(current)</span></a>
                 </li>
               <li class="nav-item active">
-                <a class="nav-link" href="about/about.html">About <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../about/about.html">About <span class="sr-only">(current)</span></a>
               </li>
             </ul>
             <div class="right-sidebar">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="/SignUp-Page/index.html">Sign-Up <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../SignUp-Page/index.html">Sign-Up <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="Login-Page/index.html">Login <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Login <span class="sr-only">(current)</span></a>
               </li>
             </div>
           </div>
         </nav>
 
-
+    <h1 class="loginTitle">Login</h1>
+    <p class="loginMessage">Login to your account to access your favorite videos and track your progress!</p>
+ 
     <form>
         <label for ="frname">First Name:</label><br>
         <input type="text" id="fname" name="fname"><br>
@@ -53,7 +61,12 @@
         <input type="text" id="lname" name="lname"><br>
         <label for ="email">E-mail Address:</label><br>
         <input type="email" id="email" name="E-mail"><br>
+        <label for ="password">Password:</label><br>
+        <input type="password" id="password" name="Password"><br>
     </form>
+
+    <p class="noAccount">Don't have an account? Sign-up <a href="Signup-Page/index.html">here.</a></p>
+
     
 </body>
 </html>

@@ -5,3 +5,24 @@ body {
 .navbar-brand {
     font-family: 'Laila', serif;
 }
+
+form { 
+    text-align: center;
+}
+
+.noAccount {
+    text-align: center;
+    font-family: 'Laila', serif;
+    padding-top: 20px;
+}
+
+.loginTitle {
+    text-align: center;
+    font-family: 'Laila', serif;
+    padding-top: 30px;
+}
+
+.loginMessage {
+    text-align: center;
+    font-family: 'Laila', serif;
+}
