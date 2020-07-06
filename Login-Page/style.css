@@ -52,3 +52,7 @@ input[type=password] {
     border: 2px solid #d3b5f7;
     border-radius: 4px;
 }
+
+.forgotPassword {
+    font-style: italic;
+}

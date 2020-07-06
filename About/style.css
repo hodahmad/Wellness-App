@@ -5,3 +5,10 @@ body {
 .navbar-brand {
     font-family: 'Laila', serif;
 }
+
+.about {
+    text-align: center;
+    margin: 250px;
+    padding: 50px;
+    font-family: 'Laila', serif;
+}
