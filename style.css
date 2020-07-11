@@ -18,3 +18,22 @@ body {
     text-align: center;
     align-items: center;
 }
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+    font-family: 'Laila', serif;
+}
+
+.welcomeTitle {
+    font-family: 'Parisienne', cursive;
+    color: #d3b5f7;
+}
+
+.recipeTitle {
+    color: #70a358
+}
+
+.fitnessTitle {
+    color: #68afde;
+}
